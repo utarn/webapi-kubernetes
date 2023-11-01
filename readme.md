@@ -66,3 +66,9 @@ kubectl apply -f service.yaml
 ```
 kubectl apply -f deployment2.yaml
 ```
+
+เข้าไปดู Process ใน WSL
+```
+wsl -d docker-desktop
+ps aux | grep dotnet
+```
